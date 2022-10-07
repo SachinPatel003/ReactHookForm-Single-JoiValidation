@@ -2,8 +2,7 @@ import { TextField as MuiTextField } from "@mui/material";
 import * as React from "react";
 import { useController } from "react-hook-form";
 
-const TextField = ({control,  helperText, name, ...props }) => {
-
+const TextField = ({ control, helperText, name, ...props }) => {
   const {
     field: { ref, value, ...field },
     fieldState: { invalid, error },

@@ -21,7 +21,7 @@ export default function CheckboxesGroup({ control, name, helperText }) {
     <Box sx={{ display: "flex" }}>
       <FormControl
         error={invalid}
-        sx={{ m: 3 }}
+        sx={{ my: 3 }}
         component="fieldset"
         variant="standard"
       >

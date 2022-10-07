@@ -19,7 +19,7 @@ export default function FormSelect({helperText, control, name }) {
   const computedHelperText = invalid ? error?.message : helperText;
 
   return (
-    <Box sx={{ width: 300, margin: 2 }}>
+    <Box sx={{ width: 300, my: 2 }}>
       <FormControl error={invalid} fullWidth>
         <InputLabel id="demo-simple-select-label">Age</InputLabel>
         <Select

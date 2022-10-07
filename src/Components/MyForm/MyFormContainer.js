@@ -32,7 +32,7 @@ const MyFormContainer = () => {
       MyChechBOx: false,
       MySlider: null,
       MySwitch: false,
-      MyRating: 1
+      MyRating: null
     },
     mode: "all",
   });
